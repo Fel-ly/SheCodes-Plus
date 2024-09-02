@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+    <style>
+      .form-entries {
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      input {
+        border: 3px solid #cccccc;
+        border-radius: 4px;
+      }
+      input[type="submit"] {
+        background-color: rgb(3, 171, 171);
+        border: none;
+        padding: 9px 20px;
+        font-size: 15px;
+      }
+      input[type="submit"]:hover {
+        background-color: #0c2a31;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome Back!</h1>
+
+    <form>
+      <div class="form-entries">
+        <label for="email"> Enter your email address</label><br />
+        <input type="email" name="email" id="mail" />
+      </div>
+      <div class="form-entries">
+        <label for="password"> Enter your password</label><br />
+        <input type="password" name="password" id="pass" required />
+      </div>
+      <div class="form-entries">
+        <input type="submit" value="Login" id="button" />
+      </div>
+    </form>
+  </body>
+</html>
