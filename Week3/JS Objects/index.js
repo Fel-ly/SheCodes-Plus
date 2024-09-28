@@ -12,7 +12,7 @@ let weather = {
 console.log(weather);
 
 //challenge 3
-//Create an object weather with properties of temp and humidity and console log the object
+//console log the humidity and the temperature
 console.log(weather.temp);
 console.log(weather.humidity);
 
